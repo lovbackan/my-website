@@ -2,20 +2,27 @@
   font-family: "Sherwood";
   src: url(sherwood.ttf) format("truetype");
 }
+
+html {
+  background-color: #39494a;
+  background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+}
+
 body {
   font-family: "Sherwood";
 }
-
+h1 {
+  text-align: center;
+}
 main {
   width: 100%;
   display: flex;
-  background-color: #39494a;
-  background-image: url("https://www.transparenttextures.com/patterns/buried.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 section {
-  width: 33%;
+  width: 33vw;
+  height: 80vh;
+  text-align: center;
 }
 
 img {
@@ -23,6 +30,7 @@ img {
 }
 
 .stats {
+  color: azure;
 }
 
 .stat-value {
