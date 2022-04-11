@@ -14,6 +14,10 @@ body {
 h1 {
   text-align: center;
 }
+
+h2 {
+  text-align: center;
+}
 main {
   width: 100%;
   display: flex;
@@ -26,6 +30,10 @@ section {
 
 img {
   max-width: 100%;
+}
+
+.class {
+  height: 10vh;
 }
 
 .menu {
