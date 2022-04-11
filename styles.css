@@ -20,17 +20,21 @@ main {
 }
 
 section {
-  width: 33vw;
-  height: 80vh;
   text-align: center;
+  height: 59vh;
 }
 
 img {
   max-width: 100%;
 }
 
+.menu {
+  width: 5vw;
+}
+
 .stats {
-  color: #black;
+  color: black;
+  width: 20vw;
 }
 
 .stat-value {
@@ -38,7 +42,14 @@ img {
   color: white;
 }
 
+.portrait {
+  width: 50vw;
+}
+
 .lore {
+  width: 25vw;
+}
+.lore-info {
   background-color: #ca9f67;
   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 
