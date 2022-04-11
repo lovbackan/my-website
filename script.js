@@ -17,4 +17,7 @@ const calcAge = function() {
 const myAge = document.getElementById("myAge");
 myAge.innerHTML += " " + calcAge();
 
+// document.getELemntById ("???"); om vi ger en p tagg ett id, så kan vi targeta specifikt den!
+// myAge.innerHTML += " " + calcAge(); EXECTUAS DIREKT, 
+
 // myAge.innerHTML + clacAge();
