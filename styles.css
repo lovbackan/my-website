@@ -37,12 +37,12 @@ img {
 }
 
 .menu {
-  width: 5vw;
+  width: 5%;
 }
 
 .stats {
   color: black;
-  width: 20vw;
+  width: 20%;
 }
 
 .stat-value {
@@ -51,11 +51,11 @@ img {
 }
 
 .portrait {
-  width: 50vw;
+  width: 50%;
 }
 
 .lore {
-  width: 25vw;
+  width: 25%;
 }
 .lore-info {
   background-color: #ca9f67;
