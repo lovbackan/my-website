@@ -20,12 +20,13 @@ h2 {
 }
 main {
   width: 100%;
+  height: 100%;
   display: flex;
 }
 
 section {
   text-align: center;
-  height: 59vh;
+  height: max-content;
 }
 
 img {
@@ -60,6 +61,6 @@ img {
 .lore-info {
   background-color: #ca9f67;
   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
-
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  height: 59vh;
 }

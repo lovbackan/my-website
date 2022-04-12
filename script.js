@@ -4,10 +4,10 @@ const currentYear = new Date().getFullYear();
 console.log(currentYear);
 
 const calcAge = function() {
-    const födelseÅr = 1994;
-    const ålder = currentYear - födelseÅr;
-    console.log(ålder);
-    return ålder;
+    const birthYear = 1994;
+    const myAge = currentYear - birthYear;
+    console.log(myAge);
+    return myAge;
     //vilket år det är måste uppdateras 
 }
 
