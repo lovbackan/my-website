@@ -88,3 +88,10 @@ img {
     flex-direction: column;
   }
 }
+
+/* CONTACT HTML */
+
+.contactInfo {
+  font-size: larger;
+  width: inherit;
+}
