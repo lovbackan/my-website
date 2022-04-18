@@ -6,13 +6,17 @@
 html {
   background-color: #39494a;
   background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+  cursor: url("./cursors/cursorWarcraft2.cur"), auto;
+}
+
+.spaceEvenlyContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 body {
   font-family: "Sherwood";
-}
-h1 {
-  text-align: center;
+  max-height: 100vh;
 }
 
 h2 {
@@ -33,34 +37,54 @@ img {
   max-width: 100%;
 }
 
-.class {
+.bannerClass {
   height: 10vh;
 }
 
 .menu {
-  width: 5%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3rem 0;
 }
 
-.stats {
+.menupic {
+  max-width: 10vh;
+  max-height: 10vw;
+}
+/* .stats {
   color: black;
   width: 20%;
-}
+} */
 
 .stat-value {
   background-color: black;
   color: white;
 }
 
-.portrait {
+/* .portrait {
   width: 50%;
 }
 
 .lore {
   width: 25%;
-}
+} */
 .lore-info {
   background-color: #ca9f67;
   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   height: 59vh;
+}
+
+/* FÖR MOBIL */
+@media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+  main {
+    flex-direction: column;
+  }
 }
