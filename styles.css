@@ -77,6 +77,26 @@ img {
   height: 59vh;
 }
 
+/* KNAPP */
+button,
+input[type="submit"] {
+  background-color: rgb(255, 255, 255);
+  border: solid gray 1px;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-top: 10px;
+  padding: 4px;
+}
+
+/* These are the styles for the dialog */
+dialog {
+  background-image: url("./dumb-stuff/dialogfire.gif");
+  color: white;
+  cursor: url("./cursors/cursorWarcraft2.cur"), auto;
+  border: solid gray 2px;
+  border-radius: 10px;
+}
+
 /* FÖR MOBIL */
 @media screen and (max-width: 600px) {
   .menu {
