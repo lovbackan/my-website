@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Simon Lövbacka</title>
   </head>
 
@@ -15,17 +16,6 @@
       <img src="dumb-stuff/torch1.gif" />
     </header>
 
-    <!-- <center>
-      <marquee behavior="alternate" direction="left" scrollamount="10">
-        <img
-          src="dumb-stuff/lightning-blue.png"
-          width="50"
-          height="35"
-        />WEBSITE UNDER CONSTRUCTION!
-        <img src="dumb-stuff/lightning-green.png" width="50" height="35" />
-      </marquee>
-    </center> -->
-
     <section class="bannerClass">
       <img src="./internet-mage.gif" />
     </section>
@@ -35,7 +25,7 @@
         <a href="index.html">
           <img class="menupic" src="./dumb-stuff/smoking-skull.gif" />
         </a>
-        <a href="meny1.html">
+        <a href="guestBook.html">
           <img class="menupic" src="./dumb-stuff/spellbook.gif" />
         </a>
         <a href="meny2.html">
@@ -44,6 +34,19 @@
         <a href="contact.html">
           <img class="menupic" src="./dumb-stuff/mail-scroll.gif" />
         </a>
+      </section>
+
+      <section>
+        <label for="firstName">First name</label>
+        <input type="text" name="firstName" id="firstName" />
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+        <button onclick="sendMessage()">Send message</button>
+      </section>
+
+      <section>
+        <h2>Gästboksinlägg</h2>
+        <div class="messageContainer"></div>
       </section>
     </main>
 
